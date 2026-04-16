@@ -1,6 +1,6 @@
 <?php
 
-namespace Globyapp\OdataToDoctrine\Exceptions;
+namespace GlobyApp\OdataToDoctrine\Exceptions;
 
 use Symfony\Component\Validator\ConstraintViolationListInterface;
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace Globyapp\OdataToDoctrine\DTO\QueryBuilder;
+namespace GlobyApp\OdataToDoctrine\DTO\QueryBuilder;
 
 class MapEntry
 {

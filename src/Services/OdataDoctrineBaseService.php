@@ -1,13 +1,13 @@
 <?php
 
-namespace Globyapp\OdataToDoctrine\Services;
+namespace GlobyApp\OdataToDoctrine\Services;
 
-use App\Attributes\DbLink;
-use App\Attributes\DbLinkArrayType;
-use App\Attributes\DbLinkContext;
-use App\Attributes\DbLinkJoin;
-use Globyapp\OdataToDoctrine\DTO\DoctrineOdata\JoinClause;
-use Globyapp\OdataToDoctrine\DTO\DoctrineOdata\MapEntry;
+use GlobyApp\OdataToDoctrine\Attributes\DbLink;
+use GlobyApp\OdataToDoctrine\Attributes\DbLinkArrayType;
+use GlobyApp\OdataToDoctrine\Attributes\DbLinkContext;
+use GlobyApp\OdataToDoctrine\Attributes\DbLinkJoin;
+use GlobyApp\OdataToDoctrine\DTO\QueryBuilder\JoinClause;
+use GlobyApp\OdataToDoctrine\DTO\QueryBuilder\MapEntry;
 use Symfony\Component\Serializer\Attribute\Groups;
 
 class OdataDoctrineBaseService

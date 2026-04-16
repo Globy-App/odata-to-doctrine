@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Attributes;
+namespace GlobyApp\OdataToDoctrine\Attributes;
 
 #[\Attribute(\Attribute::TARGET_PROPERTY)]
 class DbLink

@@ -1,6 +1,6 @@
 <?php
 
-namespace Globyapp\OdataToDoctrine\Services;
+namespace GlobyApp\OdataToDoctrine\Services;
 
 use Doctrine\ORM\Query;
 use Doctrine\ORM\QueryBuilder;
@@ -8,13 +8,13 @@ use Doctrine\ORM\Tools\Pagination\Paginator;
 use GlobyApp\OdataQueryParser\Datatype\FilterClause;
 use GlobyApp\OdataQueryParser\Datatype\OrderByClause;
 use GlobyApp\OdataQueryParser\Enum\FilterOperator;
-use Globyapp\OdataToDoctrine\DTO\DoctrineOdata\MapEntry;
-use Globyapp\OdataToDoctrine\DTO\ODataURLDTO;
-use Globyapp\OdataToDoctrine\DTO\QueryBuilder\QueryMapDTO;
-use Globyapp\OdataToDoctrine\View\MetadataView;
-use Globyapp\OdataToDoctrine\View\OdataResponseView;
+use GlobyApp\OdataToDoctrine\DTO\QueryBuilder\MapEntry;
+use GlobyApp\OdataToDoctrine\DTO\ODataURLDTO;
+use GlobyApp\OdataToDoctrine\DTO\QueryBuilder\QueryMapDTO;
+use GlobyApp\OdataToDoctrine\View\MetadataView;
+use GlobyApp\OdataToDoctrine\View\OdataResponseView;
 
-class OdataQueryToDoctrineService extends OdataDoctrineBaseService
+class OdataQueryToDoctrineService
 {
     public const int DEFAULT_SKIP = 0;
     public const int DEFAULT_TOP = 50;

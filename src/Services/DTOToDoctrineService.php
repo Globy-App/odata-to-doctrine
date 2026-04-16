@@ -1,10 +1,10 @@
 <?php
 
-namespace Globyapp\OdataToDoctrine\Services;
+namespace GlobyApp\OdataToDoctrine\Services;
 
-use App\Attributes\DbLinkContext;
-use Globyapp\OdataToDoctrine\DTO\DoctrineOdata\JoinClause;
-use Globyapp\OdataToDoctrine\DTO\DoctrineOdata\MapEntry;
+use GlobyApp\OdataToDoctrine\Attributes\DbLinkContext;
+use GlobyApp\OdataToDoctrine\DTO\QueryBuilder\JoinClause;
+use GlobyApp\OdataToDoctrine\DTO\QueryBuilder\MapEntry;
 use Doctrine\Bundle\DoctrineBundle\Repository\ServiceEntityRepository;
 use Doctrine\ORM\Query\Expr\Join;
 use Doctrine\ORM\QueryBuilder;

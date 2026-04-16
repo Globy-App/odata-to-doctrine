@@ -1,6 +1,6 @@
 <?php
 
-namespace Globyapp\OdataToDoctrine\DTO;
+namespace GlobyApp\OdataToDoctrine\DTO;
 
 use GlobyApp\OdataQueryParser\OdataQuery;
 use Symfony\Component\Validator\Constraints as Assert;

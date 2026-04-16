@@ -5,7 +5,7 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Globyapp\\OdataToDoctrine\\": "src/"
+            "GlobyApp\\OdataToDoctrine\\": "src/"
         }
     },
     "authors": [

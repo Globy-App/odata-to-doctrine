@@ -1,11 +1,11 @@
 <?php
 
-namespace Globyapp\OdataToDoctrine\Traits;
+namespace GlobyApp\OdataToDoctrine\Traits;
 
-use Globyapp\OdataToDoctrine\DTO\ODataURLDTO;
-use Globyapp\OdataToDoctrine\Exceptions\ValidationViolationException;
-use Globyapp\OdataToDoctrine\Services\DTOToDoctrineService;
-use Globyapp\OdataToDoctrine\Services\OdataQueryToDoctrineService;
+use GlobyApp\OdataToDoctrine\DTO\ODataURLDTO;
+use GlobyApp\OdataToDoctrine\Exceptions\ValidationViolationException;
+use GlobyApp\OdataToDoctrine\Services\DTOToDoctrineService;
+use GlobyApp\OdataToDoctrine\Services\OdataQueryToDoctrineService;
 use Doctrine\Persistence\ManagerRegistry;
 use GlobyApp\OdataQueryParser\OdataQueryParser;
 use InvalidArgumentException;

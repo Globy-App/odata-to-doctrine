@@ -1,6 +1,6 @@
 <?php
 
-namespace Globyapp\OdataToDoctrine\View;
+namespace GlobyApp\OdataToDoctrine\View;
 
 use Symfony\Component\Serializer\Attribute\Groups;
 

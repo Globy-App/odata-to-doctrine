@@ -1,8 +1,8 @@
 <?php
 
-namespace Globyapp\OdataToDoctrine\DTO\QueryBuilder;
+namespace GlobyApp\OdataToDoctrine\DTO\QueryBuilder;
 
-use Globyapp\OdataToDoctrine\DTO\ODataURLDTO;
+use GlobyApp\OdataToDoctrine\DTO\ODataURLDTO;
 use Symfony\Component\Validator\Constraints as Assert;
 use Symfony\Component\Validator\Context\ExecutionContextInterface;
 
